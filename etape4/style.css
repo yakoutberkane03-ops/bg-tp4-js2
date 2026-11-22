@@ -1,0 +1,47 @@
+
+body{
+  width:80%;
+  margin:auto;
+}
+.col_number {
+  width: 10%;
+}
+
+.col_text {
+  width: 30%;
+}
+
+.col_chkbox {
+  width: 10%;
+}
+#table_container {
+  margin: auto;
+  font-family: Calibri, sans-serif;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #087cae;
+  color: white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#container_summary {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  margin: 5px auto;
+  border: 1px solid #ddd;
+  padding-right: 80px;
+  padding-left: 20px;
+}
+#container_summary p {
+  margin: 10px;
+}
